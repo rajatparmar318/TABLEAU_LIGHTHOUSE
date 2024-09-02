@@ -2,7 +2,7 @@
 
 ## Project/Goals
 Project/Goals
-To better understand the relationship between Canadians and the real estate market, I have been asked to provide answers based on data retrieved from the Canadian Open Data Portal. These are specifically:
+To understand the relationship between Canadians and Real estate market we have been provided some datasets to answer questions. These are following:
 
 Weekly earnings from 1.1.2001 to 15.4.2015 (weekly_earnings - CSV)
 Housing constructions from 1955 to 2019 (real_estate_numbers - CSV)
@@ -13,17 +13,18 @@ Consumer index from November 1979 to September 2020
 
 ## Process
 Exploratory Analysis
-Many of the files included irrelevant information too difficult to simply filter out in Tableau. Much of the work needed to be done in Excel for the spreadsheets and in Python for the JSON file, where for the JSON file the extracted data is in the "earnings" csv. Not all files in the data folder of the repository were used in Tableau
+Many files had to be filtered out as it contained information which was not germane to our topic. Much work was needed to be done on Excel for the spreadsheets and Python for the JSON file, where for the JSON file the extracted data is in the "earnings" csv. Not every file was used to extract and use data.
 
 Providing Visualizations in Tableau
-As an extension of exploratory analysis, the data needed to properly be visualized in Tableau, where certain transformations of the data became evident and the process continued back and forth between Tableau and excel, trying to find the best method to achieve calculated results.
+As continued process for explolatory analysis, data was analysed and visualized properly in tableau where transformations of data was done and the process was continued back and forth between tableau and excel. Tried to get the outcomes using best methods.
 
 
 ## Results
 Answering questions (Results)
 Results (Option 1)
 Show the trend of house prices across Canada in the last 40 years (table housing_price_index).
-image
+![image](https://github.com/user-attachments/assets/66dbdca6-fe4b-4a34-8f0b-6fa2b0882f52)
+
 
 To determine which CPI index to use, they were both charted and I found the 2002 index to have the most data.
 
